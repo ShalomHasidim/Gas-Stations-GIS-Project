@@ -35,7 +35,7 @@ function App() {
 
   useEffect(() => {
     async function getStations() {
-      const result = await axios('http://localhost:3900/');
+      const result = await axios('http://localhost:3900/api/gas/דלק');
       setStations(result.data);
     }
     getStations();
@@ -55,7 +55,7 @@ function App() {
           attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        {console.log(stations)}
+    
         {stations.map((station, index) => {
           const icon = L.icon({
             iconUrl: icons('./Sonol.png'),
