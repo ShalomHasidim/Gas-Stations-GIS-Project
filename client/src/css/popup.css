@@ -1,0 +1,63 @@
+.flex-container {
+    display: flex;
+}
+
+.flex-container > div {
+    padding: 5px 15px;
+}
+
+.leaflet-popup-content-wrapper {
+    text-align: right;
+}
+.leaflet-container {
+    font: none;
+    font-size: 14px;
+}
+
+.leaflet-popup-content {
+    margin: 10px 0px;
+    width: 350px !important;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+    left: 7px;
+}
+.right-container {
+    border-left: 1px solid #CFD8DC;
+   width: 25%;
+}
+.left-container {
+    width: 75%;
+}
+
+.popup-title {
+    font-weight: bold;
+}
+
+.fuel-price {
+    border: 1px solid #FFA726;
+    border-radius: 5px;
+    background-color: #FFA726;
+    padding: 5px 13px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.icons-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+
+.update-date {
+    text-align: center;
+    margin-bottom: 3px;
+}
+.margin-top {
+    margin-top: 10px;
+}
+.padding-left {
+    padding-left: 10px;
+}

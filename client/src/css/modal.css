@@ -1,0 +1,78 @@
+.form-group.row{
+    padding: 0px 40px;
+}
+
+.modal-header {
+    flex-direction: row-reverse;
+}
+
+button{
+    outline: -webkit-focus-ring-color auto 0px !important; 
+}
+
+.modal-header .close {
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem !important;
+}
+
+.modal-body {
+    text-align: right;
+}
+
+.form-control {
+    text-align: right;
+}
+
+.form-group>.row{
+    flex-direction: row-reverse;
+}
+
+.row {
+    flex-direction: row-reverse;
+    margin-bottom: 15px;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.right{float: right;}
+
+.left{float: left;}
+
+/*Modal Footer*/
+.modal-footer{
+    padding:0.75rem 0rem !important;
+    justify-content: right !important;
+}
+.modal-footer>*{margin:0px !important;}
+.modal-footer>.col-lg-6>button{width:50%;}
+#searchBtn{
+    background-color: #9CCC65;
+    border-color: #9CCC65;
+}
+
+
+/*modalAddGS window*/
+
+.flex-group{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    flex-wrap: wrap-reverse;
+}
+
+.form-row{
+    flex-direction:row-reverse;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+/*Icons*/
+.fa-edit{
+    padding-top:7px;
+    margin-right: 11px;
+    color:#546E7A;
+}

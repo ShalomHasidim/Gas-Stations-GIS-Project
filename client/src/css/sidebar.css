@@ -1,0 +1,128 @@
+  /*menu burger button*/
+  .bm-burger-bars.custom{
+    position: absolute;
+    height: 12%; 
+    left: 0px; 
+    right: 0px; 
+    top: 0%; 
+    opacity: 1;
+  }
+  .bm-burger-bars.custom.second{top:30%}
+  .bm-burger-bars.custom.third{top:60%}
+
+  .bm-burger-button{
+    top:41px !important;
+
+  }
+
+  .bm-item {
+    display: inline-block;
+  
+    /* Our sidebar item styling */
+    text-decoration: none;
+    color: #546E7A;
+    transition: color 0.2s;
+    text-align: right;
+    padding:0.3em 1.5em 0.3em;
+  }
+
+  .menu-item.bm-item:hover {
+    color: black;
+  }
+  
+  .bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    right: 36px;
+    top: 36px;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #546E7A;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: white;
+    font-size: 16px;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .bm-item:focus {
+    outline: -webkit-focus-ring-color auto 0px !important; 
+    outline-color: -webkit-focus-ring-color !important;
+    outline-style: auto !important;
+    outline-width: 0px !important;
+  }
+  
+  .bm-burger-button :focus {
+    outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+.bm-cross-button {
+    left:8px;
+}
+
+/*navbar header*/
+
+.navbar-header:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+.navbar-header>img {
+    width:100%;
+    padding: 5px 0px 5px 0px;
+}
+
+.bm-item.navbar-header {
+    margin:0px;
+}
+
+/*remove cross button*/
+.bm-cross-button{
+    display:none;
+}
+
+/*Icons*/
+.bm-item>i {
+    padding-left:20px;
+}
+
+/*seperator*/
+.seperator{
+    border-top: 1px solid #CFD8DC;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*Menu buttons items*/
+.menu-button-item {
+
+}
